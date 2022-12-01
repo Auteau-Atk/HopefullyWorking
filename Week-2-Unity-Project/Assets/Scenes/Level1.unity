@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &3966082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.8946323
+      value: -6.843
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -551,6 +551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TogglePad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
       value: 
@@ -571,7 +575,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -579,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.8946323
+      value: -6.841
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -616,6 +620,10 @@ PrefabInstance:
     - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_Name
       value: TogglePad (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
@@ -688,7 +696,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197019596}
-  m_LocalRotation: {x: 0.320452, y: 0.12458718, z: -0.042559903, w: 0.938071}
+  m_LocalRotation: {x: 0.320452, y: 0.12458714, z: -0.04255989, w: 0.938071}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -947,7 +955,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -955,7 +963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.8946323
+      value: -6.844
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -993,6 +1001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TogglePad (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
       value: 
@@ -1012,7 +1024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7013795465368730450, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_RootOrder
@@ -1149,7 +1161,6 @@ Transform:
   - {fileID: 769894935}
   - {fileID: 477030956}
   - {fileID: 152639336}
-  - {fileID: 445557407}
   - {fileID: 1335859630}
   - {fileID: 727824937}
   - {fileID: 890668243}
@@ -1182,7 +1193,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310782137}
-  m_LocalRotation: {x: 0.32045203, y: 0.12458721, z: -0.042559918, w: 0.938071}
+  m_LocalRotation: {x: 0.32045203, y: 0.12458714, z: -0.0425599, w: 0.938071}
   m_LocalPosition: {x: -5.453254, y: 6.9845796, z: -0.2720151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1275,11 +1286,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &445557407 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-  m_PrefabInstance: {fileID: 1076131998}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &450393846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,7 +1406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &482918185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1546,7 +1552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &548963398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2190,7 +2196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.894633
+      value: -6.84
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2228,6 +2234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TogglePad (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
       value: 
@@ -2256,7 +2266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6945057
+      value: -2.643
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2293,6 +2303,14 @@ PrefabInstance:
     - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_Name
       value: TogglePad (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
@@ -2409,7 +2427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &923077890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2879,67 +2897,6 @@ Transform:
   m_Father: {fileID: 532776060}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1076131998
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 307247747}
-    m_Modifications:
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.894633
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: m_Name
-      value: TogglePad (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
-      propertyPath: objectToToggle
-      value: 
-      objectReference: {fileID: 1180927849}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
 --- !u!1 &1136934845
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,7 +2955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.8931236
+      value: -7.827
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3031,6 +2988,14 @@ PrefabInstance:
     - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_Name
       value: TogglePad (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
@@ -3109,7 +3074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.877201
+      value: 2.827
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3142,6 +3107,14 @@ PrefabInstance:
     - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_Name
       value: TogglePad (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
@@ -3280,7 +3253,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188397692}
-  m_LocalRotation: {x: 0.337462, y: 0.12379242, z: -0.044819035, w: 0.93208694}
+  m_LocalRotation: {x: 0.337462, y: 0.12379239, z: -0.04481902, w: 0.93208694}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3352,7 +3325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1223278235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3580,7 +3553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7013795465368730450, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_RootOrder
@@ -3901,7 +3874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7005055
+      value: -3.653
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3939,6 +3912,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TogglePad (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
       value: 
@@ -3963,7 +3944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1571888815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4055,7 +4036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7013795465368730450, guid: 4745d1d7800129342a1b23f92c31715a, type: 3}
       propertyPath: m_RootOrder
@@ -4558,7 +4539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1812402949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4844,7 +4825,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906466091}
-  m_LocalRotation: {x: 0.30338126, y: 0.12533878, z: -0.040292703, w: 0.9437301}
+  m_LocalRotation: {x: 0.30338126, y: 0.12533873, z: -0.040292688, w: 0.9437301}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5201,7 +5182,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5209,7 +5190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5874405
+      value: -5.514
       objectReference: {fileID: 0}
     - target: {fileID: 1289584448444692621, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5246,6 +5227,14 @@ PrefabInstance:
     - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: m_Name
       value: TogglePad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3405982763901266013, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917311158437001365, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5118197818583901827, guid: cf0ae799900e39344b45fa006c979b23, type: 3}
       propertyPath: objectToToggle
